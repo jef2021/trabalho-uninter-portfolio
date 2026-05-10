@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeferson Fernandes | Portfólio</title>
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Folha de estilos externa -->
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <!-- ===================================================
+       NAVBAR — visível em todas as seções
+  =================================================== -->
+  <nav id="navbar" role="navigation" aria-label="Menu principal">
+    <a href="#sobre" class="nav-logo">JF</a>
+
+    <!-- Links de navegação -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#sobre"   class="active">Sobre mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div style="display:flex;align-items:center;gap:0.8rem;">
+      <!-- Botão para alternar tema claro/escuro -->
+      <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <!-- Botão hambúrguer para mobile -->
+      <button id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================================================
+       SEÇÃO 1: SOBRE MIM
+  =================================================== -->
+  <section id="sobre" aria-label="Sobre mim">
+    <p class="hero-eyebrow">Portfólio Pessoal</p>
+
+    <h1 class="hero-name">Jeferson<br><span>Fernandes</span></h1>
+
+    <p class="hero-subtitle">Mecânico de Usinagem → Analista de Dados em Formação</p>
+
+    <div class="hero-rule"></div>
+
+    <!-- Apresentação pessoal -->
+    <p class="hero-bio">
+      Profissional com 11 anos de experiência em Mecânica de Usinagem, apaixonado
+      por dados e tecnologia. Atualmente em transição de carreira para a área de
+      Análise de Dados, onde tenho desenvolvido projetos práticos com Power BI, Python
+      e SQL. Me destaco pela responsabilidade, atenção a detalhes e capacidade de
+      transformar dados em informações estratégicas.
+    </p>
+
+    <!-- Chips com informações pessoais -->
+    <div class="info-chips">
+      <span class="chip"><span class="chip-icon">📍</span> São Paulo, SP</span>
+      <span class="chip"><span class="chip-icon">📞</span> (11) 98651-8183</span>
+      <span class="chip"><span class="chip-icon">✉️</span> je_sfernandes@hotmail.com</span>
+      <span class="chip"><span class="chip-icon">💼</span> Aberto a oportunidades</span>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       SEÇÃO 2: FORMAÇÃO
+  =================================================== -->
+  <section id="formacao" aria-label="Formação">
+    <p class="section-label">Histórico Educacional</p>
+    <h2 class="section-title">Formação &amp;<br>Habilidades</h2>
+
+    <!-- Timeline de formação -->
+    <h3 class="block-title">📚 Cursos &amp; Formação</h3>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <p class="timeline-date">Concluído em Março 2025</p>
+        <p class="timeline-title">Power BI Avançado</p>
+        <p class="timeline-institution">Simplifica Treinamentos</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Concluído em 2024</p>
+        <p class="timeline-title">Python Avançado</p>
+        <p class="timeline-institution">Onebitcode PRO</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Em andamento</p>
+        <p class="timeline-title">Excel Avançado</p>
+        <p class="timeline-institution">Tesla Treinamentos</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">Concluído em 2012</p>
+        <p class="timeline-title">Técnico em Mecânica de Usinagem</p>
+        <p class="timeline-institution">SENAI</p>
+      </div>
+
+    </div>
+
+    <!-- Idiomas -->
+    <h3 class="block-title">🌐 Idiomas</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <p class="skill-name">Português</p>
+        <p class="skill-level">Nativo</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">Espanhol</p>
+        <p class="skill-level">Fluente</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">Inglês</p>
+        <p class="skill-level">Básico</p>
+      </div>
+    </div>
+
+    <!-- Habilidades técnicas -->
+    <h3 class="block-title">⚙️ Habilidades Técnicas</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <p class="skill-name">Power BI</p>
+        <p class="skill-level">ETL · DAX · Dashboards</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">Python</p>
+        <p class="skill-level">Pandas · NumPy · Matplotlib</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">SQL</p>
+        <p class="skill-level">Consultas e análise</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">Excel Avançado</p>
+        <p class="skill-level">Tabelas dinâmicas · Fórmulas</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">GitHub</p>
+        <p class="skill-level">Versionamento de código</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-name">Análise de Dados</p>
+        <p class="skill-level">EDA · ETL · Storytelling</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       SEÇÃO 3: PORTFÓLIO
+  =================================================== -->
+  <section id="portfolio" aria-label="Portfólio">
+    <p class="section-label">Projetos Realizados</p>
+    <h2 class="section-title">Portfólio</h2>
+
+    <div class="portfolio-grid">
+
+      <!-- Projeto 1 — Dashboard Power BI publicado -->
+      <article class="portfolio-card">
+        <div class="portfolio-icon">📊</div>
+        <h3>Dashboard Power BI — Publicado</h3>
+        <p>
+          Dashboard interativo publicado e acessível online, desenvolvido em Power BI
+          com foco em análise de dados, KPIs, DAX e storytelling visual.
+        </p>
+        <div class="portfolio-tags">
+          <span class="tag">Power BI</span>
+          <span class="tag">DAX</span>
+          <span class="tag">ETL</span>
+          <span class="tag">Dashboard</span>
+        </div>
+        <a class="portfolio-link"
+           href="https://app.powerbi.com/view?r=eyJrIjoiMjE4OGZjNTYtYzE3ZC00NjkxLTljNzktODNlNmQwODM2YzdiIiwidCI6Ijg5OGU5NDk4LTE0YTktNDkyYi05Yzk4LTg3ZjlmODBkNGE1MSJ9"
+           target="_blank"
+           rel="noopener noreferrer">
+          Acessar dashboard ao vivo →
+        </a>
+      </article>
+
+      <!-- Projeto 2 -->
+      <article class="portfolio-card">
+        <div class="portfolio-icon">🐍</div>
+        <h3>Análise com Python</h3>
+        <p>
+          Projetos de análise exploratória de dados (EDA) utilizando Pandas, NumPy,
+          Matplotlib e Seaborn para geração de insights e visualizações.
+        </p>
+        <div class="portfolio-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Seaborn</span>
+        </div>
+        <a class="portfolio-link"
+           href="https://www.linkedin.com/in/jeferson-sfernandes"
+           target="_blank"
+           rel="noopener noreferrer">
+          Ver perfil →
+        </a>
+      </article>
+
+      <!-- Projeto 3 -->
+      <article class="portfolio-card">
+        <div class="portfolio-icon">🗺️</div>
+        <h3>Análises Geográficas</h3>
+        <p>
+          Dashboards com análises geográficas no Power BI, cruzando localização com
+          métricas de negócio para suporte a decisões estratégicas.
+        </p>
+        <div class="portfolio-tags">
+          <span class="tag">Power BI</span>
+          <span class="tag">Mapas</span>
+          <span class="tag">Análise</span>
+        </div>
+        <a class="portfolio-link"
+           href="https://www.linkedin.com/in/jeferson-sfernandes"
+           target="_blank"
+           rel="noopener noreferrer">
+          Ver no LinkedIn →
+        </a>
+      </article>
+
+      <!-- Projeto 4 -->
+      <article class="portfolio-card">
+        <div class="portfolio-icon">📐</div>
+        <h3>Programação CNC</h3>
+        <p>
+          11 anos de experiência em usinagem com programação CNC (Fanuc e Siemens),
+          demonstrando raciocínio lógico e precisão aplicados a processos produtivos.
+        </p>
+        <div class="portfolio-tags">
+          <span class="tag">CNC</span>
+          <span class="tag">Fanuc</span>
+          <span class="tag">Siemens</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================================================
+       SEÇÃO 4: CONTATO
+       Formulário com validação JavaScript obrigatória
+  =================================================== -->
+  <section id="contato" aria-label="Contato">
+    <p class="section-label">Vamos conversar</p>
+    <h2 class="section-title">Contato</h2>
+
+    <div class="contato-grid">
+
+      <!-- Informações de contato -->
+      <div class="contato-info">
+        <h3>Fale comigo</h3>
+
+        <div class="contato-item">
+          <span>📞</span>
+          <span>(11) 98651-8183</span>
+        </div>
+
+        <div class="contato-item">
+          <span>✉️</span>
+          <a href="mailto:je_sfernandes@hotmail.com">je_sfernandes@hotmail.com</a>
+        </div>
+
+        <div class="contato-item">
+          <span>🔗</span>
+          <a href="https://www.linkedin.com/in/jeferson-sfernandes"
+             target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/jeferson-sfernandes
+          </a>
+        </div>
+
+        <div class="contato-item">
+          <span>📍</span>
+          <span>São Paulo, SP — Brasil</span>
+        </div>
+      </div>
+
+      <!-- Formulário de contato com validação JS -->
+      <form id="contact-form" novalidate>
+
+        <!-- Campo nome -->
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome"
+                 placeholder="Seu nome completo"
+                 aria-required="true" />
+          <span class="error-msg" id="nome-error">Por favor, informe seu nome.</span>
+        </div>
+
+        <!-- Campo e-mail -->
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email"
+                 placeholder="seu@email.com"
+                 aria-required="true" />
+          <span class="error-msg" id="email-error">Informe um e-mail válido (ex: usuario@dominio.com).</span>
+        </div>
+
+        <!-- Campo mensagem -->
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem"
+                    placeholder="Sua mensagem..."
+                    aria-required="true"></textarea>
+          <span class="error-msg" id="mensagem-error">Por favor, escreva sua mensagem.</span>
+        </div>
+
+        <button type="submit" class="btn-send">Enviar mensagem</button>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jeferson Fernandes · Desenvolvido com HTML5, CSS3 &amp; JavaScript</p>
+  </footer>
+
+  <!-- ===================================================
+       MODAL DE CONFIRMAÇÃO DE ENVIO
+  =================================================== -->
+  <div id="modal-overlay" role="dialog" aria-modal="true" aria-label="Mensagem enviada">
+    <div class="modal-box">
+      <div class="modal-icon">✅</div>
+      <h3>Mensagem enviada!</h3>
+      <p>Obrigado pelo contato, Jeferson retornará em breve.</p>
+      <button class="btn-modal-close" id="modal-close">Fechar</button>
+    </div>
+  </div>
+
+  <!-- Script externo -->
+  <script src="script.js"></script>
+</body>
+</html>
